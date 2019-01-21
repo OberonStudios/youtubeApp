@@ -19,10 +19,11 @@ class Search extends Component {
                     <Field
                         name="search"
                         type="text"
+                        className="pure-input-rounded"
                         component="input"
                         placeholder="Search Videos"
                     />
-                    <button type="submit" class="pure-button pure-button-primary">Search</button>
+                    <button type="submit" className="pure-button pure-button-primary">Search</button>
                 </fieldset>
             </form>
         );
